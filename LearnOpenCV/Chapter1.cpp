@@ -37,6 +37,6 @@ void main() {
 	while (true) {
 		cap.read(img);
 		imshow("Image", img); //imshow is used to display image in window
-		waitKey(20); //waitKey is used to hold the image window
+		waitKey(1); //waitKey is used to hold the image window
 	}
 }
